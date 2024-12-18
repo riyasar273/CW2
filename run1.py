@@ -9,3 +9,4 @@ def create_tiny_img(path):
     width = img.width
     cropped_img = img.crop(((width/2)-8,(height/2)-8 , (width/2)+8, (height/2)+8))
     return cropped_img
+
